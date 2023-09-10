@@ -16,7 +16,25 @@ stars.forEach((star,index)=>{
                 star.innerHTML = `&#9734;`
             }
     })
-   
-   
     })
 })
+button.star1
+
+stars.forEach((star)=>{
+    star.addEventListener("click",(e)=>{
+     e.preventDefault();
+     /*let  int = stars.indexOf(star);
+     console.log(int)
+     para.innerText = `${int} Reviews`*/
+     console.log("ok");
+     let int = stars.indexOf("star")
+     console.log(int);
+     })
+    /*stars.forEach((star,i)=>{
+ 
+       if(int >= i){
+         star.innerHTML = `$#9733`
+       }
+       else{ star.innerHTML = `$#9734`}
+     })*/
+ })

@@ -7,10 +7,12 @@ body{
     height: 100vh;
 }
  .box{
-  
     display: flex;
     align-items: center;
     margin-top: 300px;
     flex-direction: column;
-
+}
+.star{
+    border: none;
+    color: gold;
 }

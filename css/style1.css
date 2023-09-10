@@ -38,3 +38,9 @@ body{
   transform: 0.2s;
 }
 
+.rating > input:checked ~ label
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label
+{
+  color:gold;
+}
